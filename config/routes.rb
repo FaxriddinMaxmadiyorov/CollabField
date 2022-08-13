@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   # see https://guides.rubyonrails.org/routing.html
   root to: 'pages#index'
   devise_for :users
+  devise_scope :user do
+    get 'login', to: 'devise/sessions#new'
+  end
 end
