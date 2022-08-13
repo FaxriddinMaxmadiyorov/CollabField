@@ -1,0 +1,12 @@
+HOST_URL: http://localhost:3000
+
+development:
+  # db connection credentials
+  POSTGRES_DB: dev_collab_tst_db
+  # POSTGRES_DB: dev_collab_db
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: '123456789'
+test:
+  TEST_POSTGRES_DB: test_collab_db
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: '123456789'
