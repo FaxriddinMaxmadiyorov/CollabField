@@ -18,6 +18,10 @@ h1 {
 }
 
 i {
+  width: 26px;
+}
+
+ul {
   list-style-type: none;
 }
 
@@ -26,5 +30,18 @@ a:hover, a:active, a:link, a:visited {
 }
 
 .control-label {
-  display: none
+  display: none;
+}
+
+.login-button, .sign-up-button {
+  background-color: $navbarColor;
+  color: white !important;
+}
+
+.container {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
 }
