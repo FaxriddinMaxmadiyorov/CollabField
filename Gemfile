@@ -63,3 +63,4 @@ gem 'jquery-rails'
 # for authentication
 gem 'devise'
 gem 'bootstrap_form'
+gem 'faker'
