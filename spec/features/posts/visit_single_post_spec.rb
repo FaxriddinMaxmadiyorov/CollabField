@@ -12,5 +12,4 @@ RSpec.feature "Visit single post", :type => :feature do
     page.find('.interested a').click
     expect(page).to have_selector('#single-post-content p', text: post.content)
   end
-
 end
